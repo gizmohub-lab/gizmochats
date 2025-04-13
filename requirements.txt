@@ -1,0 +1,19 @@
+# Core Framework
+Django==4.2.7
+
+# MySQL database connector (make sure libmysql is installed on your system)
+mysqlclient==2.2.0
+
+# Image processing
+Pillow==10.2.0
+
+# File handling (PDF, docs, etc.)
+python-magic==0.4.27  # Detect file types
+PyPDF2==3.0.1          # PDF reading/writing
+python-docx==1.1.0     # DOCX file manipulation
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Optional development tools
+black==23.11.0         # Code formatter
